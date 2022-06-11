@@ -1,6 +1,7 @@
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/Ai';
 import { GoLocation } from 'react-icons/go';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 import React from 'react';
 
@@ -12,10 +13,14 @@ const Sidebar = () => {
   };
   return (
     <div>
-      <img
-        src='../Akwei.jpg'
-        alt='user avatar'
-        className='w-32 h-32 mx-auto rounded-full'
+      <Image
+        src='/public/images/Akwei.jpg'
+        alt='avatar'
+        className='mx-auto border rounded-full '
+        height='128px'
+        width='128px'
+        layout='intrinsic'
+        quality='100'
       />
       <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald'>
         <span className='text-green-400'>Akwei </span>
