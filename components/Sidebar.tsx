@@ -1,4 +1,4 @@
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/Ai';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
@@ -12,16 +12,17 @@ const Sidebar = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
   return (
-    <div>
-      <Image
-        src='/public/images/Akwei.jpg'
-        alt='avatar'
-        className='mx-auto border rounded-full '
-        height='128px'
-        width='128px'
-        layout='intrinsic'
-        quality='100'
-      />
+    <>
+      <div className='bg-red-600 rounded-full w-36 h-36'></div>
+      {/* <Image
+        src={'/public/images/pinit logo.png'}
+        alt={'avatar'}
+        className={'mx-auto border rounded-full '}
+        height={'128px'}
+        width={'128px'}
+        layout={'intrinsic'}
+        quality={'100'}
+      /> */}
       <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald'>
         <span className='text-green-400'>Akwei </span>
         Acquaye
@@ -47,15 +48,17 @@ const Sidebar = () => {
       </div>
       {/* address */}
       <div
-        className='py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500'
+        className='py-4 my-5 bg-gray-200 rounded-lg dark:bg-dark-200 dark:bg-black-500'
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
-        <div className='flex items-center justify-center space-x-2 text-black'>
+        <div className='flex items-center justify-center space-x-2 dark:bg-dark-200 dark:bg-black-500'>
           <GoLocation />
           <span>Birmingham, UK</span>
         </div>
-        <p className='my-2 text-black'>akwei1@gmail.com</p>
-        <p className='my-2 text-black'>phone number ?</p>
+        <p className='my-2 dark:bg-dark-200 dark:bg-black-500 '>
+          akwei1@gmail.com
+        </p>
+        {/* <p className='my-2 text-black'>phone number ?</p> */}
       </div>
       {/* e-mail button */}
       <button
@@ -70,7 +73,7 @@ const Sidebar = () => {
       >
         Toggle theme
       </button>
-    </div>
+    </>
   );
 };
 

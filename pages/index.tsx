@@ -4,7 +4,7 @@ import { languages } from '../data';
 
 const index = () => {
   return (
-    <div className='flex flex-col px-6 pt-1'>
+    <div className='flex flex-col px-6 pt-1 mb-2'>
       <h5 className='my-3 font-medium'>
         I am a web developer who has a lifelong passion and interest in the tech
         industry. I am a developer because I genuinely love learning and the
@@ -14,10 +14,12 @@ const index = () => {
         environment.
       </h5>
       {/*Languages & Tools */}
-      <div className='grid gap-9 md:grid-cols-2'>
+      <div className='p-2 bg-gray-200 rounded-lg dark:bg-dark-200'>
         <div>
-          <h5 className='my-3 text-2xl font-bold'>Language & Framework</h5>
-          <div className='my-2'>
+          <h5 className='flex justify-center my-1 text-2xl font-bold '>
+            Languages & Frameworks
+          </h5>
+          <div className='grid gap-3 md:grid-cols-2'>
             {languages.map((language, i) => (
               <Bar value={language} key={i} />
             ))}

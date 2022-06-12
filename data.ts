@@ -29,7 +29,12 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: 'Bootstrap',
+    name: 'SQL',
+    level: '100',
+  },
+  {
+    Icon: BsCircleFill,
+    name: 'Git/GitHub',
     level: '100',
   },
 ];
@@ -61,7 +66,7 @@ export const projects: IProject[] = [
   {
     name: 'Raduno',
     description: 'Catch up without the fuss',
-    image_path: '',
+    image_path: '/public/images/radunologo.jpg',
     deployed_url: 'https://raduno-plans.netlify.app/',
     github_url: 'https://github.com/Akwei001/final-project-front-end-hexcode',
     category: [],
@@ -71,7 +76,7 @@ export const projects: IProject[] = [
   {
     name: 'PinIt',
     description: 'save your links',
-    image_path: '',
+    image_path: '/public/images/pinitsearch.png',
     deployed_url: 'https://pinitapp.netlify.app/',
     github_url:
       'https://github.com/SchoolOfCode/national-project-week-professional-artists',
@@ -82,7 +87,7 @@ export const projects: IProject[] = [
   {
     name: 'Online Music player',
     description: 'Play your tracks online',
-    image_path: '',
+    image_path: '/public/images/playerscreen.png',
     deployed_url: '',
     github_url: '',
     category: [],
@@ -92,7 +97,7 @@ export const projects: IProject[] = [
   {
     name: 'HiraKana Game',
     description: 'Test your Katakana & Hiragana knowledge',
-    image_path: '',
+    image_path: '/public/images/Jgameboard.png',
     deployed_url: 'https://meek-cocada-df7f5d.netlify.app/',
     github_url: 'https://github.com/Akwei001/Japanese-Game.git',
     category: [],
