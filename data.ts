@@ -5,17 +5,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: 'HTML',
-    level: '100%',
+    level: '100',
   },
   {
     Icon: BsCircleFill,
     name: 'CSS',
-    level: '100%',
+    level: '100',
   },
   {
     Icon: BsCircleFill,
     name: 'JavaScript',
-    level: '100%',
+    level: '100',
   },
   {
     Icon: BsCircleFill,
