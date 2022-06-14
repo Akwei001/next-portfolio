@@ -13,8 +13,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      <div className='bg-red-600 rounded-full w-36 h-36'></div>
-      {/* <Image
+      <Image
         src={'/public/images/pinit logo.png'}
         alt={'avatar'}
         className={'mx-auto border rounded-full '}
@@ -22,7 +21,7 @@ const Sidebar = () => {
         width={'128px'}
         layout={'intrinsic'}
         quality={'100'}
-      /> */}
+      />
       <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald'>
         <span className='text-green-400'>Akwei </span>
         Acquaye
