@@ -1,11 +1,14 @@
 /* eslint-disable react/jsx-key */
 import React from 'react';
+import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data';
 import { motion } from 'framer-motion';
 import { stagger, fadeInUp, routeAnimation } from '../animation';
 
 const Projects = () => {
+  const [showDetail, setShowDetail] = useState<number | null>(null);
+
   return (
     <motion.div
       className='px-5 py-2 overflow-y-scroll'
@@ -26,7 +29,12 @@ const Projects = () => {
             className='col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200'
             variants={fadeInUp}
           >
-            <ProjectCard project={project} key={project.name} />
+            <ProjectCard
+              project={project}
+              key={project.name}
+              showDetail={showDetail}
+              setShowDetail={setShowDetail}
+            />
           </motion.div>
         ))}
       </motion.div>

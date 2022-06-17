@@ -2,6 +2,7 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
+import Akwei from '../public/images/Akwei.jpg';
 
 import React from 'react';
 
@@ -14,13 +15,13 @@ const Sidebar = () => {
   return (
     <>
       <Image
-        src={'/public/images/pinit logo.png'}
-        alt={'avatar'}
-        className={'mx-auto border rounded-full '}
-        height={'128px'}
-        width={'128px'}
-        layout={'intrinsic'}
-        quality={'100'}
+        src={Akwei}
+        alt='avatar'
+        className='mx-auto border rounded-full '
+        height='128px'
+        width='128px'
+        layout='intrinsic'
+        quality='100'
       />
       <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald'>
         <span className='text-green-400'>Akwei </span>
@@ -31,8 +32,8 @@ const Sidebar = () => {
       </p>
       <a
         className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
-        href=''
-        download='name'
+        href={'/public/cv/AkweiSOC.pdf'}
+        download='AkweiSOC.pdf'
       >
         Download CV
       </a>

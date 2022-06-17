@@ -64,43 +64,47 @@ export const languages: Skill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 1,
     name: 'Raduno',
     description: 'Catch up without the fuss',
     image_path: '/public/images/radunologo.jpg',
     deployed_url: 'https://raduno-plans.netlify.app/',
     github_url: 'https://github.com/Akwei001/final-project-front-end-hexcode',
-    category: [],
+
     key_techs: ['React', 'Postgresql', 'CSS'],
   },
 
   {
+    id: 2,
     name: 'PinIt',
     description: 'save your links',
     image_path: '/public/images/pinitsearch.png',
     deployed_url: 'https://pinitapp.netlify.app/',
     github_url:
       'https://github.com/SchoolOfCode/national-project-week-professional-artists',
-    category: [],
+
     key_techs: ['React', 'Postgresql', 'CSS'],
   },
 
   {
+    id: 3,
     name: 'Online Music player',
     description: 'Play your tracks online',
     image_path: '/public/images/playerscreen.png',
     deployed_url: '',
     github_url: '',
-    category: [],
+
     key_techs: ['', '', ''],
   },
 
   {
+    id: 4,
     name: 'HiraKana Game',
     description: 'Test your Katakana & Hiragana knowledge',
     image_path: '/public/images/Jgameboard.png',
     deployed_url: 'https://meek-cocada-df7f5d.netlify.app/',
     github_url: 'https://github.com/Akwei001/Japanese-Game.git',
-    category: [],
-    key_techs: ['React', 'Tailwind', ''],
+
+    key_techs: ['React', 'Tailwind'],
   },
 ];
