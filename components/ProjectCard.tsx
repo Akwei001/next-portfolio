@@ -13,7 +13,6 @@ const ProjectCard: FunctionComponent<{
   project: {
     name,
     image_path,
-
     deployed_url,
     description,
     github_url,
@@ -25,13 +24,14 @@ const ProjectCard: FunctionComponent<{
   setShowDetail,
 }) => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <div>
         <Image
           src={image_path}
           alt={name}
           className='cursor-pointer'
           onClick={() => setShowDetail(id)}
+          layout='responsive'
           width='300'
           height='150'
         />

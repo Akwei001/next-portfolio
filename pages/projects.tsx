@@ -25,17 +25,16 @@ const Projects = () => {
         animate='animate'
       >
         {projects.map((project) => (
-          <motion.div
-            className='col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200'
-            variants={fadeInUp}
-          >
-            <ProjectCard
-              project={project}
-              key={project.name}
-              showDetail={showDetail}
-              setShowDetail={setShowDetail}
-            />
-          </motion.div>
+          <div className='col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200 shadow-custom-light'>
+            <motion.div variants={fadeInUp} className=''>
+              <ProjectCard
+                project={project}
+                key={project.name}
+                showDetail={showDetail}
+                setShowDetail={setShowDetail}
+              />
+            </motion.div>
+          </div>
         ))}
       </motion.div>
     </motion.div>
