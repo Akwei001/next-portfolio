@@ -46,7 +46,7 @@ const ProjectCard: FunctionComponent<{
       <p className='my-2 text-center'>{name}</p>
       {showDetail === id && (
         <motion.div
-          className='absolute top-0 left-0 z-10 grid w-full h-auto p-10 text-black bg-gray-100 rounded-lg md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'
+          className='absolute top-0 left-0 z-10 grid w-full h-auto p-10 text-black rounded-lg shadow-black/70 shadow-2xl  border-[1px] border-solid border-white border-opacity-30 backdrop-blur-lg bg-gradient-to-b from-green-400/60 to-blue-400/30 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'
           variants={stagger}
           initial='initial'
           animate='animate'
@@ -55,7 +55,7 @@ const ProjectCard: FunctionComponent<{
             {/* <img src={image_path} alt={name} /> */}
             <motion.div
               variants={fadeInUp}
-              className='border-4 border-gray-100'
+              className='border-4 border-gray-100 rounded-lg'
             >
               <Image
                 src={image_path}
@@ -72,13 +72,13 @@ const ProjectCard: FunctionComponent<{
             >
               <a
                 href={github_url}
-                className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200'
+                className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-lg dark:bg-dark-200'
               >
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
                 href={deployed_url}
-                className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200'
+                className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-lg dark:bg-dark-200'
               >
                 <AiFillProject /> <span>Project</span>
               </a>
@@ -100,7 +100,7 @@ const ProjectCard: FunctionComponent<{
               {key_techs.map((tech) => (
                 <span
                   key={tech}
-                  className='px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounde-sm'
+                  className='px-2 py-1 my-1 bg-gray-200 rounded-lg dark:bg-dark-200'
                 >
                   {tech}
                 </span>

@@ -67,7 +67,8 @@ export const projects: IProject[] = [
   {
     id: 1,
     name: 'Raduno',
-    description: 'Catch up without the fuss',
+    description:
+      'Catch up without the fuss. Our app allows a group of people (friends, family, colleagues etc) to plan social events by making it easy to set up polls and vote on on the event location, event dates etc. It is solving the problems around organising activities for a group of people, and the friction that is usually involved in getting group decisions quickly and democratically.',
     image_path: '/images/radunologo.jpg',
     deployed_url: 'https://raduno-plans.netlify.app/',
     github_url: 'https://github.com/Akwei001/final-project-front-end-hexcode',
@@ -78,7 +79,8 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: 'PinIt',
-    description: 'save your links',
+    description:
+      'Save your links. We were give a task to improve the lives of fellow Bootcampers. Our idea was an app that would allow bootcampers to save links to articles and videos. ',
     image_path: '/images/pinitsearch.png',
     deployed_url: 'https://pinitapp.netlify.app/',
     github_url:
@@ -102,7 +104,7 @@ export const projects: IProject[] = [
     id: 4,
     name: 'HiraKana Game',
     description: 'Test your Katakana & Hiragana knowledge',
-    image_path: '/images/Jgameboard.png',
+    image_path: '/images/gamehome.png',
     deployed_url: 'https://meek-cocada-df7f5d.netlify.app/',
     github_url: 'https://github.com/Akwei001/Japanese-Game.git',
 

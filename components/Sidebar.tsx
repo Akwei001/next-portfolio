@@ -23,7 +23,7 @@ const Sidebar = () => {
         layout='intrinsic'
         quality='100'
       />
-      <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald'>
+      <h3 className='my-4 text-3xl font-medium tracking-wider text-black font-Oswald dark:text-white'>
         <span className='text-green-400'>Akwei </span>
         Acquaye
       </h3>
