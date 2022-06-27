@@ -103,7 +103,8 @@ export const projects: IProject[] = [
   {
     id: 4,
     name: 'HiraKana Game',
-    description: 'Test your Katakana & Hiragana knowledge',
+    description:
+      'A game to test your Hiragana and Katakana knowlegde. How many can you get correct in a row?',
     image_path: '/images/gamehome.png',
     deployed_url: 'https://meek-cocada-df7f5d.netlify.app/',
     github_url: 'https://github.com/Akwei001/Japanese-Game.git',
