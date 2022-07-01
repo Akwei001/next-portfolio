@@ -25,7 +25,7 @@ const Projects = () => {
         animate='animate'
       >
         {projects.map((project) => (
-          <div className='col-span-12 p-2 bg-gray-200 rounded-lg shadow-gray-200 sm:col-span-6 lg:col-span-4 dark:bg-dark-200'>
+          <div className='col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200'>
             <motion.div variants={fadeInUp} className=''>
               <ProjectCard
                 project={project}

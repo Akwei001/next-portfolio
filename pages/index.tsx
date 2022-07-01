@@ -27,7 +27,7 @@ const index = () => {
         environment.
       </motion.h5>
       {/*Languages & Tools */}
-      <div className='p-2 bg-gray-200 rounded-lg dark:bg-dark-200'>
+      <div className='p-2 bg-gray-200 rounded-lg shadow-custom-neushadow dark:bg-dark-200'>
         <div>
           <h5 className='flex justify-center my-1 text-2xl font-bold '>
             Languages & Frameworks

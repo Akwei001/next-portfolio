@@ -11,6 +11,10 @@ module.exports = {
     boxShadow: {
       'custom-light': ' 0 0 10px #313131',
       'custom-dark': '5px 5px 10px #0a0c0e , -5px -5px 10px #14161c',
+      'custom-neushadow':
+        'inset   2px 4px 8px #b1b4b6, inset  -2px -4px 8px #ffffff  ',
+      'custom-neubutton':
+        '4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset',
     },
 
     extend: {
