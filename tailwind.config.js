@@ -14,7 +14,11 @@ module.exports = {
       'custom-neushadow':
         'inset   2px 4px 8px #b1b4b6, inset  -2px -4px 8px #ffffff  ',
       'custom-neubutton':
-        '4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset',
+        '4px 4px 4px 0px #d1d9e6 , -4px -2px 4px 0px #ffffff ',
+      'custom-neubutton-dark':
+        '-14px -14px 40px #1d2024, 14px 14px 40px #353a41',
+      'custom-neushadow-dark':
+        ' inset 10px 10px  10px #1d2024, inset -4px -4px  10px #353a41',
     },
 
     extend: {

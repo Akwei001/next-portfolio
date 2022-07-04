@@ -9,11 +9,9 @@ body {
   font-family: sans-serif;
 }
 
-::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+* {
+  -ms-overflow-style: none;
 }
-
-::-webkit-scroll {
-  width: 8px;
-  height: 0px;
+::-webkit-scrollbar {
+  display: none;
 }
