@@ -1,6 +1,5 @@
 import { IProject, Skill } from './types';
 import { BsCircleFill } from 'react-icons/bs';
-import Image from 'next/image';
 
 export const languages: Skill[] = [
   {

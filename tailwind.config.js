@@ -18,6 +18,8 @@ module.exports = {
       'custom-neubutton-dark':
         '-14px -14px 40px #1d2024, 14px 14px 40px #353a41',
       'custom-neushadow-dark':
+        ' inset 10px 10px  10px #1d2024, inset -6px -6px  15px #353a41',
+      'custom-neushadow-dark2':
         ' inset 10px 10px  10px #1d2024, inset -4px -4px  10px #353a41',
     },
 

@@ -7,7 +7,7 @@ import { fadeInUp, routeAnimation } from '../animation';
 const index = () => {
   return (
     <motion.div
-      className='flex flex-col px-6 pt-1 mb-2'
+      className='flex flex-col px-6 pt-1 mb-6'
       variants={routeAnimation}
       initial='initial'
       animate='animate'
@@ -29,8 +29,8 @@ const index = () => {
       {/*Languages & Tools */}
       <div className='p-2 bg-gray-200 rounded-lg shadow-custom-neushadow dark:bg-dark-200 dark:shadow-custom-neushadow-dark'>
         <div>
-          <h5 className='flex justify-center my-1 text-2xl font-bold '>
-            Languages & Frameworks
+          <h5 className='flex pl-2 my-1 mb-2 text-xl font-bold border-b-2 border-green '>
+            <span> Languages & Frameworks</span>
           </h5>
           <div className='grid gap-3 md:grid-cols-2'>
             {languages.map((language, i) => (

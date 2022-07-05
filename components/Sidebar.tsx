@@ -17,7 +17,7 @@ const Sidebar = () => {
       <Image
         src={Akwei}
         alt='avatar'
-        className='mx-auto border rounded-xl '
+        className='mx-auto border rounded-xl'
         height='128px'
         width='128px'
         layout='intrinsic'
@@ -27,7 +27,7 @@ const Sidebar = () => {
         <span className='text-green-400'>Akwei </span>
         Acquaye
       </h3>
-      <p className='px-2 py-1 my-3 bg-gray-200 rounded-full shadow-custom-neushadow dark:bg-black dark:custom-dark'>
+      <p className='px-2 py-1 my-3 bg-gray-200 rounded-full shadow-custom-neushadow dark:bg-black dark:shadow-custom-neushadow-dark'>
         Web Developer
       </p>
       <a
