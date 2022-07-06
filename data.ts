@@ -1,39 +1,39 @@
 import { IProject, Skill } from './types';
-import { BsCircleFill } from 'react-icons/bs';
+// import { BsCircleFill } from 'react-icons/bs';
 
 export const languages: Skill[] = [
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'HTML',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'CSS',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'JavaScript',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'React',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'NodeJS',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'SQL',
     level: '100',
   },
   {
-    Icon: BsCircleFill,
+    // Icon: BsCircleFill,
     name: 'Git/GitHub',
     level: '100',
   },

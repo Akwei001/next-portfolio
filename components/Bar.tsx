@@ -4,7 +4,8 @@ import { Skill } from '../types';
 import { motion } from 'framer-motion';
 
 const Bar: FunctionComponent<{ value: Skill }> = ({
-  value: { Icon, level, name },
+  //icon deleted from value
+  value: { level, name },
 }) => {
   const bar_width = `${level}%`;
 
@@ -34,7 +35,8 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
         initial='initial'
         animate='animate'
       >
-        <Icon className='mr-3' /> {name}
+        {/* <Icon className='mr-3' /> {name} */}
+        {name}
       </motion.div>
     </div>
   );
