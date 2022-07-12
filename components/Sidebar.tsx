@@ -32,8 +32,8 @@ const Sidebar = () => {
       </p>
       <a
         className='py-2 mt-4 text-white rounded-full cursor-pointer shadow-custom-neubutton px-14 bg-gradient-to-r from-green-400 to-blue-400 dark:bg-dark-200 dark:shadow-custom-neubutton-dark'
-        href={'/cv/AkweiAcquayeCV1.pdf'}
-        download='AkweiAcquayeCV1.pdf'
+        href='/cv/AAcquayeCV.pdf'
+        download='AAcquayeCV.pdf'
       >
         Download CV
       </a>
