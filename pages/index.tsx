@@ -19,9 +19,9 @@ const index = () => {
         animate='animate'
         className='my-3 font-medium'
       >
-        I am a web developer who has a lifelong passion and interest in the tech
-        industry. I am a developer because I genuinely love learning and the
-        scope of what can be done with programming is truly exciting. I have a
+        I am a Software developer who has a lifelong passion and interest in the
+        tech industry. I am a developer because I genuinely love learning and
+        the scope of what can be done with software is truly exciting. I have a
         strong problem solving mindset. My time at the School of Code has
         prepared me well for working in collaborative software development
         environment.
