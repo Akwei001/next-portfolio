@@ -19,7 +19,7 @@ const Sidebar = () => {
         alt='avatar'
         className='mx-auto border rounded-xl'
         height='128px'
-        width='128px'
+        width='200px'
         layout='intrinsic'
         quality='100'
       />
@@ -28,7 +28,7 @@ const Sidebar = () => {
         Acquaye
       </h3>
       <p className='px-2 py-1 my-3 bg-gray-200 rounded-full shadow-custom-neushadow dark:bg-black dark:shadow-custom-neushadow-dark'>
-        Web Developer
+        Software Developer
       </p>
       <a
         className='py-2 mt-4 text-white rounded-full cursor-pointer shadow-custom-neubutton px-14 bg-gradient-to-r from-green-400 to-blue-400 dark:bg-dark-200 dark:shadow-custom-neubutton-dark'
