@@ -3,6 +3,7 @@ import Bar from '../components/Bar';
 import { languages } from '../data';
 import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation } from '../animation';
+import Projects from './projects';
 
 const index = () => {
   return (
@@ -31,7 +32,7 @@ const index = () => {
         <div>
           <h5 className='flex pl-2 my-1 mb-2 text-xl font-bold '>
             <span className='border-b-2 border-green'>
-              Languages & Frameworks
+              Languages, Tools & Frameworks
             </span>
           </h5>
           <div className='grid gap-3 md:grid-cols-2'>
@@ -41,6 +42,7 @@ const index = () => {
           </div>
         </div>
       </div>
+      <Projects />
     </motion.div>
   );
 };
