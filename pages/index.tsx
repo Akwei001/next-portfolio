@@ -42,7 +42,6 @@ const index = () => {
           </div>
         </div>
       </div>
-      <Projects />
     </motion.div>
   );
 };
