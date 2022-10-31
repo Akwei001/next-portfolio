@@ -14,7 +14,7 @@ const Bar: FunctionComponent<{ value: Skill }> = ({
   //     width: 0,
   //   },
   //   animate: {
-  //     width: bar_width,
+  //     // width: bar_width,
   //     transition: {
   //       duration: 0.4,
   //       type: 'spring',

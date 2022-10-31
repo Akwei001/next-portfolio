@@ -29,7 +29,7 @@ export const languages: Skill[] = [
   },
   {
     Icon: '/images/icons8-postgresql-96.png',
-    name: 'SQL',
+    name: 'PostgreSQL',
     level: '100',
   },
   {
@@ -112,7 +112,7 @@ export const projects: IProject[] = [
       'A game to test your Hiragana and Katakana knowlegde. How many can you get correct in a row?',
     image_path: '/images/gamehome.png',
     deployed_url: 'https://extraordinary-pony-659a22.netlify.app',
-    github_url: 'https://github.com/Akwei001/Japanese-Game.git',
+    github_url: 'https://github.com/Akwei001/Jgame',
 
     key_techs: ['React', 'Tailwind'],
   },
