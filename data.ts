@@ -3,38 +3,43 @@ import { IProject, Skill } from './types';
 
 export const languages: Skill[] = [
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/html-5.png',
     name: 'HTML',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/css3.png',
     name: 'CSS',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/javascript.png',
     name: 'JavaScript',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/icons8-react.png',
     name: 'React',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/node-js.png',
     name: 'NodeJS',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/icons8-postgresql-96.png',
     name: 'SQL',
     level: '100',
   },
   {
-    // Icon: BsCircleFill,
+    Icon: '/images/github.png',
     name: 'Git/GitHub',
+    level: '100',
+  },
+  {
+    Icon: '/images/icons8-nextjs.png',
+    name: 'NextJS',
     level: '100',
   },
 ];
@@ -91,8 +96,9 @@ export const projects: IProject[] = [
   {
     id: 3,
     name: 'Sanity e-commerce',
-    description: 'https://github.com/Akwei001/e-commerce',
-    image_path: '/public/images/ecommerce front.png',
+    description:
+      'A fully responsive e-commerce application with payment functionality. It is built using NextJS featuring serverside rendering and static generation, as well as React context for state management. Sanity was used for content management, allowing clients to change the home page and product details. Stripe is fully integrated with all advanced cart functionalities to allow payments to be taken.  ',
+    image_path: '/images/ecommerce front.png',
     deployed_url: 'https://akwei-ecommerce-sanity-stripe.vercel.app/',
     github_url: 'https://github.com/Akwei001/e-commerce',
 
@@ -115,7 +121,7 @@ export const projects: IProject[] = [
     name: 'Exchange rate app',
     description:
       'This exchange rate app is built using JavaScript, HTML and CSS. This project demonstrates using the fetch API to make an HTTP request to a 3rd party API to get exchange rate data.',
-    image_path: '/public/images/Exchangerateapp.JPG',
+    image_path: '/images/Exchangerateapp.JPG',
     deployed_url: 'https://dazzling-jones-c87598.netlify.app/',
     github_url: 'https://github.com/Akwei001/Exchange-Rate-App',
 

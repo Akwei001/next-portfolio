@@ -1,7 +1,7 @@
 import { IconType } from 'react-icons';
 
 export interface Skill {
-  // Icon: IconType;
+  Icon: string;
   name: string;
   level: string;
 }
