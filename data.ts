@@ -109,12 +109,12 @@ export const projects: IProject[] = [
     id: 4,
     name: 'HiraKana Game',
     description:
-      'A game to test your Hiragana and Katakana knowlegde. How many can you get correct in a row?',
+      'A personal project to practice coding and to help with studying for the Japanese Language Proficiency test level 5. The app consist of a Hiragana/Katakana quiz, a memory game and vocabulary list',
     image_path: '/images/gamehome.png',
     deployed_url: 'https://extraordinary-pony-659a22.netlify.app',
     github_url: 'https://github.com/Akwei001/Jgame',
 
-    key_techs: ['React', 'Tailwind'],
+    key_techs: ['React', 'React Router', 'Tailwind', 'Cypress'],
   },
   {
     id: 5,
