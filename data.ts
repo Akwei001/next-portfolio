@@ -88,16 +88,16 @@ export const projects: IProject[] = [
     key_techs: ['React', 'Postgresql', 'CSS'],
   },
 
-  // {
-  //   id: 3,
-  //   name: 'Online Music player',
-  //   description: 'Play your tracks online',
-  //   image_path: '/images/playerscreen.png',
-  //   deployed_url: '',
-  //   github_url: '',
+  {
+    id: 3,
+    name: 'Sanity e-commerce',
+    description: 'https://github.com/Akwei001/e-commerce',
+    image_path: '/public/images/ecommerce front.png',
+    deployed_url: 'https://akwei-ecommerce-sanity-stripe.vercel.app/',
+    github_url: 'https://github.com/Akwei001/e-commerce',
 
-  //   key_techs: ['', '', ''],
-  // },
+    key_techs: ['NextJS', 'Sanity', 'Stripe'],
+  },
 
   {
     id: 4,
@@ -110,4 +110,35 @@ export const projects: IProject[] = [
 
     key_techs: ['React', 'Tailwind'],
   },
+  {
+    id: 5,
+    name: 'Exchange rate app',
+    description:
+      'This exchange rate app is built using JavaScript, HTML and CSS. This project demonstrates using the fetch API to make an HTTP request to a 3rd party API to get exchange rate data.',
+    image_path: '/public/images/Exchangerateapp.JPG',
+    deployed_url: 'https://dazzling-jones-c87598.netlify.app/',
+    github_url: 'https://github.com/Akwei001/Exchange-Rate-App',
+
+    key_techs: ['HTML', 'CSS', 'JavaScript'],
+  },
+  // {
+  //   id: 5,
+  //   name: '',
+  //   description: '',
+  //   image_path: '/public/images/',
+  //   deployed_url: '',
+  //   github_url: '',
+
+  //   key_techs: ['', '', ''],
+  // },
+  // {
+  //   id: 5,
+  //   name: '',
+  //   description: '',
+  //   image_path: '/public/images/',
+  //   deployed_url: '',
+  //   github_url: '',
+
+  //   key_techs: ['', '', ''],
+  // },
 ];
