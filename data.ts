@@ -127,18 +127,19 @@ export const projects: IProject[] = [
 
     key_techs: ['HTML', 'CSS', 'JavaScript'],
   },
-  // {
-  //   id: 5,
-  //   name: '',
-  //   description: '',
-  //   image_path: '/public/images/',
-  //   deployed_url: '',
-  //   github_url: '',
+  {
+    id: 6,
+    name: 'Amplify Player',
+    description:
+      'A full-stack music player app created using AWS amplify. Users can create a login, and upload their own files to the database.The app uses a React front end connected to a Dynamo Db database via Graph Ql.',
+    image_path: '/images/Amplify player.png',
+    deployed_url: 'https://master.drp46atynvtc.amplifyapp.com/',
+    github_url: 'https://github.com/Akwei001/amplify-player',
 
-  //   key_techs: ['', '', ''],
-  // },
+    key_techs: ['JavaScript', 'React', 'AWS', 'Graph Ql', 'DynamoDb'],
+  },
   // {
-  //   id: 5,
+  //   id: 7,
   //   name: '',
   //   description: '',
   //   image_path: '/public/images/',
