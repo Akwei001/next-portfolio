@@ -136,7 +136,7 @@ export const projects: IProject[] = [
     deployed_url: 'https://master.drp46atynvtc.amplifyapp.com/',
     github_url: 'https://github.com/Akwei001/amplify-player',
 
-    key_techs: ['JavaScript', 'React', 'AWS', 'Graph Ql', 'DynamoDb'],
+    key_techs: ['JavaScript', 'React', 'AWS', 'Graph QL', 'DynamoDb'],
   },
   // {
   //   id: 7,
