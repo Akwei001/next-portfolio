@@ -138,6 +138,26 @@ export const projects: IProject[] = [
 
     key_techs: ['JavaScript', 'React', 'AWS', 'Graph QL', 'DynamoDb'],
   },
+  {
+    id: 7,
+    name: 'React Navtive Jobs',
+    description: '',
+    image_path: '/images/ReactNativeFront2.jpg',
+    deployed_url: '',
+    github_url: '',
+
+    key_techs: ['React Native', 'Expo', ''],
+  },
+  // {
+  //   id: 7,
+  //   name: '',
+  //   description: '',
+  //   image_path: '/public/images/',
+  //   deployed_url: '',
+  //   github_url: '',
+
+  //   key_techs: ['', '', ''],
+  // },
   // {
   //   id: 7,
   //   name: '',

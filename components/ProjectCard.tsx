@@ -32,7 +32,7 @@ const ProjectCard: FunctionComponent<{
           className='cursor-pointer'
           onClick={() => setShowDetail(id)}
           layout='responsive'
-          width='300'
+          width='250'
           height='150'
         />
       </div>
