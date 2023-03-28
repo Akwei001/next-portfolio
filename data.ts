@@ -141,10 +141,11 @@ export const projects: IProject[] = [
   {
     id: 7,
     name: 'React Navtive Jobs',
-    description: '',
+    description:
+      'The Job Search App is a mobile application developed using React Native and Expo. It allows users to search for job openings and apply for jobs from within the app. The app utilizes the Jsearch API to get job information from various sources.',
     image_path: '/images/ReactNativeFront2.jpg',
     deployed_url: '',
-    github_url: '',
+    github_url: 'https://github.com/Akwei001/react_native_jobs',
 
     key_techs: ['React Native', 'Expo', ''],
   },
