@@ -147,7 +147,7 @@ export const projects: IProject[] = [
     deployed_url: '',
     github_url: 'https://github.com/Akwei001/react_native_jobs',
 
-    key_techs: ['React Native', 'Expo', ''],
+    key_techs: ['React Native', 'Expo'],
   },
   // {
   //   id: 7,
