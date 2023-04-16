@@ -32,7 +32,7 @@ const Sidebar = () => {
       </p>
       <a
         className='py-2 mt-4 text-white rounded-full cursor-pointer shadow-custom-neubutton px-14 bg-gradient-to-r from-green-400 to-blue-400 dark:bg-dark-200 dark:shadow-custom-neubutton-dark'
-        href='/public/cv/Acquaye Resume.pdf'
+        href='/cv/Acquaye Resume.pdf'
         download='Acquaye Resume.pdf'
       >
         Download CV

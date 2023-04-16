@@ -132,7 +132,7 @@ export const projects: IProject[] = [
     name: 'Amplify Player',
     description:
       'A full-stack music player app created using AWS amplify. Users can create a login, and upload their own files to the database.The app uses a React front end connected to a Dynamo Db database via Graph Ql.',
-    image_path: '/images/Amplify player.png',
+    image_path: '/images/Jgameboard.png',
     deployed_url: 'https://master.drp46atynvtc.amplifyapp.com/',
     github_url: 'https://github.com/Akwei001/amplify-player',
 
