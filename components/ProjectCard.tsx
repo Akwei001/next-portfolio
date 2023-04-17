@@ -43,7 +43,7 @@ const ProjectCard: FunctionComponent<{
         className='cursor-pointer'
         onClick={() => setShowDetail(true)}
       /> */}
-      <p className='my-2 text-center'>{name}</p>
+      <p className='my-2 font-bold text-center'>{name}</p>
       {showDetail === id && (
         <motion.div
           className='absolute top-0 left-0 z-10 grid w-full h-auto p-10 text-black rounded-lg shadow-black/70 shadow-2xl  border-[1px] border-solid border-white border-opacity-30 backdrop-blur-lg bg-gradient-to-b from-green-400/60 to-blue-400/30 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'
