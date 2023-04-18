@@ -149,16 +149,17 @@ export const projects: IProject[] = [
 
     key_techs: ['React Native', 'Expo'],
   },
-  // {
-  //   id: 7,
-  //   name: '',
-  //   description: '',
-  //   image_path: '/public/images/',
-  //   deployed_url: '',
-  //   github_url: '',
+  {
+    id: 8,
+    name: 'Property landing page',
+    description: '',
+    image_path: '/images/Landing page.png',
+    deployed_url:
+      'https://vercel.com/akwei001/property-landing-page-z2qc/H4USCkijzN5yjcQPnhiF12LR2xv6',
+    github_url: 'https://github.com/Akwei001/property-landing-page',
 
-  //   key_techs: ['', '', ''],
-  // },
+    key_techs: ['NextJS', 'Tailwind', ''],
+  },
   // {
   //   id: 7,
   //   name: '',
