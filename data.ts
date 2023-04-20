@@ -98,7 +98,7 @@ export const projects: IProject[] = [
     name: 'Sanity e-commerce',
     description:
       'A fully responsive e-commerce application with payment functionality. It is built using NextJS featuring serverside rendering and static generation, as well as React context for state management. Sanity was used for content management, allowing clients to change the home page and product details. Stripe is fully integrated with all advanced cart functionalities to allow payments to be taken.  ',
-    image_path: '/images/ecommerce front.png',
+    image_path: '/images/ecommercefront.png',
     deployed_url: 'https://akwei-ecommerce-sanity-stripe.vercel.app/',
     github_url: 'https://github.com/Akwei001/e-commerce',
 
@@ -153,7 +153,7 @@ export const projects: IProject[] = [
     id: 8,
     name: 'Property landing page',
     description: '',
-    image_path: '/images/Landing page.png',
+    image_path: '/images/Landingpage.png',
     deployed_url:
       'https://vercel.com/akwei001/property-landing-page-z2qc/H4USCkijzN5yjcQPnhiF12LR2xv6',
     github_url: 'https://github.com/Akwei001/property-landing-page',
