@@ -1,7 +1,7 @@
 import React from 'react';
 
-const resources = () => {
-  return <div>resources</div>;
+const Resources = () => {
+  return <div>Links to resources will go here</div>;
 };
 
-export default resources;
+export default Resources;
