@@ -1,33 +1,34 @@
 import React from 'react';
+import { useState } from 'react';
 
 const resources = [
   {
-    name: 'pixabay',
+    name: 'Pixabay',
     description: 'An image bank website',
     link: 'https://pixabay.com/',
   },
   {
-    name: '',
+    name: 'Tailwind',
     description: '',
     link: '',
   },
   {
-    name: '',
+    name: 'NextJS',
     description: '',
     link: '',
   },
   {
-    name: '',
+    name: 'FreeCodeCamp',
     description: '',
     link: '',
   },
   {
-    name: '',
+    name: 'The Coder Career',
     description: '',
     link: '',
   },
   {
-    name: '',
+    name: 'CSS Tricks',
     description: '',
     link: '',
   },
