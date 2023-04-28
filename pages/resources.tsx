@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 
 const resources = [
   {
@@ -35,7 +34,15 @@ const resources = [
 ];
 
 const Resources = () => {
-  return <div>Links to resources will go here</div>;
+  return (
+    <>
+      {resources.map((resource, index) => (
+        <div className='text-black' key={index}>
+          {resource.name}
+        </div>
+      ))}
+    </>
+  );
 };
 
 export default Resources;
