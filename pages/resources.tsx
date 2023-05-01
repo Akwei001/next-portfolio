@@ -39,10 +39,13 @@ const resources = [
 
 const Resources = () => {
   return (
-    <>
+    <div className='p-2 rounded-lg white dark:bg-dark-200 dark:shadow-custom-neushadow-dark'>
       {resources.map((resource, index) => (
-        <div className='p-4 m-2 text-black bg-gray-200 rounded-md' key={index}>
-          <h2 className='text-2xl'>{resource.name}</h2>
+        <div
+          className='p-2 m-4 bg-gray-200 rounded-lg shadow-custom-neushadow dark:bg-dark-200 dark:shadow-custom-neushadow-dark'
+          key={index}
+        >
+          <h2 className='text-2xl '>{resource.name}</h2>
           <p>{resource.description}</p>
           <div>
             <Link href={resource.link}>
@@ -51,7 +54,7 @@ const Resources = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
