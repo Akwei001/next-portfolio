@@ -55,12 +55,12 @@ const Navbar = () => {
           route='/projects'
         />
 
-        {/* <NavItem
+        <NavItem
           active={activeItem}
           setActive={setActiveItem}
           name='Resources'
           route='/resources'
-        /> */}
+        />
       </div>
     </div>
   );
